@@ -1,0 +1,17 @@
+.home {
+  width: 100%;
+
+  flex: 6;
+  //border: 1px solid rgb(255, 0, 0);
+  padding: 20px;
+  // margin: 0 auto;
+  > * {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .widgets {
+    display: flex;
+    gap: 10px;
+  }
+}
