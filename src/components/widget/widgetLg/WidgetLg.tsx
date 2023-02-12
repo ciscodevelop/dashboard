@@ -6,61 +6,69 @@ const WidgetLg = () => {
   };
   return (
     <div className="widgetsm">
-      <h3>Latest Transactions</h3>
+      <h1>Latest Transactions</h1>
       <div className="wrapperTable">
         <table>
-          <tr className="tr-field">
-            <th>Customer</th>
-            <th>Date</th>
-            <th>Amount</th>
-            <th>Status</th>
-          </tr>
-          <tr>
-            <td className="info-profile">
-              <img src={profilePic} alt="" />
-              <span>Susan Carol</span>
-            </td>
-            <td>2 Jun 2023</td>
-            <td>$122.00</td>
-            <td>
-              <Button type={"Approved"} />
-            </td>
-          </tr>
-
-          <tr>
-            <td className="info-profile">
-              <img src={profilePic} alt="" />
-              <span>Susan Carol</span>
-            </td>
-            <td>2 Jun 2023</td>
-            <td>$122.00</td>
-            <td>
-              <Button type={"Declined"} />{" "}
-            </td>
-          </tr>
-
-          <tr>
-            <td className="info-profile">
-              <img src={profilePic} alt="" />
-              <span>Susan Carol</span>
-            </td>
-            <td>2 Jun 2023</td>
-            <td>$122.00</td>
-            <td>
-              <Button type={"Pending"} />{" "}
-            </td>
-          </tr>
-          <tr>
-            <td className="info-profile">
-              <img src={profilePic} alt="" />
-              <span>Susan Carol</span>
-            </td>
-            <td>2 Jun 2023</td>
-            <td>$122.00</td>
-            <td>
-              <Button type={"Approved"} />
-            </td>
-          </tr>
+          <thead>
+            <tr className="tr-field">
+              <th>Customer</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="info-profile">
+                <img src={profilePic} alt="" />
+                <span>Susan Carol</span>
+              </td>
+              <td>2 Jun 2023</td>
+              <td>$122.00</td>
+              <td>
+                <Button type={"Approved"} />
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td className="info-profile">
+                <img src={profilePic} alt="" />
+                <span>Susan Carol</span>
+              </td>
+              <td>2 Jun 2023</td>
+              <td>$122.00</td>
+              <td>
+                <Button type={"Declined"} />{" "}
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td className="info-profile">
+                <img src={profilePic} alt="" />
+                <span>Susan Carol</span>
+              </td>
+              <td>2 Jun 2023</td>
+              <td>$122.00</td>
+              <td>
+                <Button type={"Pending"} />{" "}
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td className="info-profile">
+                <img src={profilePic} alt="" />
+                <span>Susan Carol</span>
+              </td>
+              <td>2 Jun 2023</td>
+              <td>$122.00</td>
+              <td>
+                <Button type={"Approved"} />
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>

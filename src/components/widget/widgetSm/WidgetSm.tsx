@@ -6,7 +6,7 @@ const profilePic = require('../../../asset/ciscoImage.jpeg')
 const WidgetSm = () => {
   return (
     <div className='widgetlg'>
-      <h1>Users</h1>
+      <h1>New Join Users</h1>
       <div className="container">
         <div className="profilePic">
           <img src={profilePic} alt="" />

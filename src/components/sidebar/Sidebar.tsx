@@ -1,5 +1,6 @@
 import { Email, Feedback, Forum, Group, LineStyle, LiveTv, ManageAccounts, Report, Slideshow, Timeline, TrendingUp } from "@mui/icons-material";
 import "./sidebar.scss";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -8,10 +9,12 @@ const Sidebar = () => {
         <h3>Dashboard</h3>
         <div className="item">
           <ul>
+            <Link to={'/'}>              
             <li className="list-item active">
               <LineStyle className="icon" />
               Home
             </li>
+          </Link>
             <li className="list-item">
               <Timeline className="icon"/>
               Analitics
@@ -27,14 +30,18 @@ const Sidebar = () => {
         <h3>Quick Menu</h3>
         <div className="item">
           <ul>
+            <Link to={'/users'}>
             <li className="list-item">
               <Group className="icon" />
               Users
             </li>
+            </Link>
+            <Link to={'/products'}>
             <li className="list-item">
               <Slideshow className="icon"/>
-              Movies
+              Products
             </li>
+            </Link>
             <li className="list-item">
               <LiveTv className="icon"/>
               Series

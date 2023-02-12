@@ -1,9 +1,9 @@
-import Chart from "../components/chart/Chart";
-import FeaturedInfo from "../components/featuredinfo/FeaturedInfo";
+import Chart from "../../components/chart/Chart";
+import FeaturedInfo from "../../components/featuredinfo/FeaturedInfo";
 import "./home.scss";
-import { usersData } from "../dummydata";
-import WidgetSm from "../components/widget/widgetSm/WidgetSm";
-import WidgetLg from "../components/widget/widgetLg/WidgetLg";
+import { usersData } from "../../dummydata";
+import WidgetSm from "../../components/widget/widgetSm/WidgetSm";
+import WidgetLg from "../../components/widget/widgetLg/WidgetLg";
 const Home = () => {
   return (
     <div className="home">

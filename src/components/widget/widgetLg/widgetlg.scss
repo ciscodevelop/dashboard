@@ -10,13 +10,14 @@
     table {
       border-spacing: 40px;
 
+      width: 100%;
       .tr-field {
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 3px;
 
         th {
-          text-align: center;
+          text-align: left;
         }
       }
       tr {
