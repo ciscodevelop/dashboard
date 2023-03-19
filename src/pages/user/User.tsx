@@ -8,6 +8,7 @@ import {
 } from "@mui/icons-material";
 import "./user.scss";
 import { Link, useParams } from "react-router-dom";
+import { rowsUser } from "../../dummydata";
 
 const User = () => {
   const userId: any = useParams();
@@ -25,11 +26,11 @@ const User = () => {
         <div className="left">
           <div className="info-user">
             <img
-              src="https://images.freeimages.com/images/large-previews/b72/hush-1245708.jpg"
+              src={rowsUser[userId.id-1].img}
               alt=""
             />
             <div className="info-name">
-              <h4>Anna Becker</h4>
+              <h4>{rowsUser[userId.id-1].firstName}</h4>
               <h5>Software Engineer</h5>
             </div>
           </div>
@@ -84,7 +85,7 @@ const User = () => {
           </div>
           <div className="upload-rigt">
             <div className="img-upload">
-              <img src="https://images.freeimages.com/images/large-previews/b72/hush-1245708.jpg" alt="" />
+              <img  src={rowsUser[userId.id-1].img} alt="" />
             
               <label htmlFor="file">  <FileUpload  className="upload-icon"/></label>
               <input type="file"  id="file" style={{display:'none'}}/>
