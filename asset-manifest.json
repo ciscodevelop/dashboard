@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.6b10e15f.css",
+    "main.js": "/dashboard/static/js/main.80639624.js",
+    "static/media/ciscoImage.jpeg": "/dashboard/static/media/ciscoImage.7b4a8ed030ec3e895817.jpeg",
+    "index.html": "/dashboard/index.html",
+    "main.6b10e15f.css.map": "/dashboard/static/css/main.6b10e15f.css.map",
+    "main.80639624.js.map": "/dashboard/static/js/main.80639624.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b10e15f.css",
+    "static/js/main.80639624.js"
+  ]
+}
